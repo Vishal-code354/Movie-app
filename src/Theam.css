@@ -1,0 +1,61 @@
+/* General Theme Colors */
+body {
+  background-color: #fdfdfd; /* Light background for a clean look */
+  color: #333; /* Dark text for readability */
+}
+
+.navbar {
+  background-color: #ff6600 !important; /* Orange color for the header */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important; /* White text in header */
+}
+
+.navbar .nav-link:hover, .icon {
+  color: #000000 !important; /* Black text on hover for contrast */
+}
+
+footer {
+  background-color: #333; /* Dark footer background */
+  color: #ffffff; /* White text in footer */
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #ff6600; /* Orange button */
+  border-color: #ff6600;
+}
+
+.btn-primary:hover {
+  background-color: #cc5200; /* Darker orange on hover */
+  border-color: #cc5200;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff; /* White card background */
+  border: 1px solid #e6e6e6;
+}
+
+.card-title {
+  color: #ff6600; /* Orange color for card titles */
+}
+
+.card-text {
+  color: #333; /* Black or dark text for readability */
+}
+
+.card .btn {
+  background-color: #ff6600; /* Orange buttons on cards */
+  color: #ffffff;
+}
+
+.card .btn:hover {
+  background-color: #cc5200; /* Darker orange on hover */
+}
+.pos-btn{
+  align-self: flex-end;
+  background-color: #ff6600 !important;
+}
